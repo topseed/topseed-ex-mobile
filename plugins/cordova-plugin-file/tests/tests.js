@@ -3540,11 +3540,11 @@ exports.defineAutoTests = function () {
 
                     // Requires HelloCordova www assets, <allow-navigation href="cdvfile:*" /> in config.xml or
                     // cdvfile: in CSP and <access origin="cdvfile://*" /> in config.xml
-                    resolveLocalFileSystemURL('cdvfile://localhost/' + cdvfileApplicationDirectoryFsRootName + '/www/img/logo.png', function(entry) {
+                    resolveLocalFileSystemURL('cdvfile://localhost/' + cdvfileApplicationDirectoryFsRootName + '/www/img/logo_appthings.png', function(entry) {
                         expect(entry.isFile).toBe(true);
                         expect(entry.isDirectory).toBe(false);
-                        expect(entry.name).toCanonicallyMatch('logo.png');
-                        expect(entry.fullPath).toCanonicallyMatch('/www/img/logo.png');
+                        expect(entry.name).toCanonicallyMatch('logo_appthings.png');
+                        expect(entry.fullPath).toCanonicallyMatch('/www/img/logo_appthings.png');
                         expect(entry.filesystem.name).toEqual(cdvfileApplicationDirectoryFsRootName);
 
                         var img = new Image();
