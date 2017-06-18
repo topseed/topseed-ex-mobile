@@ -2,7 +2,7 @@
 <widget id="com.appthings.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>appThings</name>
     <description>
-       appThings app that accesses Android APIs and Web Resources
+       Topseed app that accesses Android APIs and web resources
     </description>
     <author email="team@appthings.io" href="https://m.appthings.io/en/team/index.html">
         appThings Team
@@ -10,6 +10,7 @@
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
+    <preference name="permissions" value="none"/>
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1" />
     <plugin name="cordova-plugin-media-capture" source="npm" spec="~1.2.0" />
