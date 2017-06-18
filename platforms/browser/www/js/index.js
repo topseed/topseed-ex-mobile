@@ -38,7 +38,7 @@ var app = {
         window.open = cordova.InAppBrowser.open;
         console.log('remapped window.open');
 		window.open('https://m.appthings.io/en/home/index.html', '_blank', 'location=no'); 
-        console.log('opened rfidthings');
+        console.log('opened app');
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
