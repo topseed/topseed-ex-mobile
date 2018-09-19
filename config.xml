@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.appthings.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>appThings</name>
+    <name>Truckerstars Sendlink</name>
     <description>
        Topseed app that accesses Android APIs and web resources
     </description>
@@ -107,7 +107,7 @@
         <preference name="ShowSplashScreen" value="true" /> <!-- defaults to "true" -->
     </platform>
     <access origin="*" />
-    <allow-navigation href="https://m.appthings.io/*" />
+    <allow-navigation href="https://truckerstar.me/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />

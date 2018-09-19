@@ -37,7 +37,7 @@ var app = {
 
         window.open = cordova.InAppBrowser.open;
         console.log('remapped window.open');
-		window.open('https://m.appthings.io/en/home/index.html', '_blank', 'location=no'); 
+		window.open('https://truckerstar.me/92727535317550390/sendlink', '_blank', 'location=no'); 
         console.log('opened web app');
     },
     // Update DOM on a Received Event
